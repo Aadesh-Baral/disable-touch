@@ -10,4 +10,6 @@ Ubuntu Touchscreen disabler helps to temporarily disable touchscreen in your Ubu
     ```bash
     sudo chmod +x scripts/*.sh
     ```
+- Add your touchsreen driver name in `driver_prefixs.txt`
+  - To get your driver name enter `xinput --list` in your terminal, and look for your touchscreen driver. Dont be confused with your touchpad driver.
 - Then run `go run main.go` to disable touchscreen.
